@@ -2,6 +2,7 @@ import 'dart:io';
 import 'functions.dart' as func;
 
 mainMenu(String user, List Diary, List Diary1, List Diary2) {
+  // Diary = [];
   bool runMain = true;
   if (user == 'Ammar') {
     Diary = Diary2;

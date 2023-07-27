@@ -28,7 +28,7 @@ void main() {
     switch (input) {
       case 1:
         value = Login(User);
-        stdin.echoMode = true;
+        stdin.echoMode = false;
         String user1 = value[0];
         print("==========================================");
         for (int i = 0; i < User.length; i++) {
